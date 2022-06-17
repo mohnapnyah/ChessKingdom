@@ -184,6 +184,6 @@ namespace ChessConsole
             return ((x == newX && y == 2 && y + 2 >= newY) ||
                     (x == newX && y + 1 == newY));
         }
-
+        //
     }
 }
