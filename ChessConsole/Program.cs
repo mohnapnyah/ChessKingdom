@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChessConsole
+namespace ChessWPF
 {
     class Program
     {
@@ -18,15 +18,6 @@ namespace ChessConsole
             int x2 = Convert.ToInt32(Console.ReadLine());
             int y2 = Convert.ToInt32(Console.ReadLine());
 
-            try
-            {
-                Piece f = PieceMaker.Make(chess, x1, y1);
-                Console.WriteLine(f.Move(x2, y2) ? "YES" : "NO");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
         }
     }
 

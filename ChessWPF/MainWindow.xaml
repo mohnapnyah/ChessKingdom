@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChessWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800">
+        Title="MainWindow" Height="600" Width="794">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition> </RowDefinition>
+            <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
@@ -26,7 +26,8 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
-           </Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
 
         <Button Grid.Column="0" Grid.Row="0"  Content=""></Button>
         <Button Grid.Column="0" Grid.Row="1" Content=""></Button>
@@ -100,11 +101,11 @@
         <Button Grid.Column="7" Grid.Row="6" Content=""></Button>
         <Button Grid.Column="7" Grid.Row="7" Content=""></Button>
 
-        <Button Grid.Column="0" Grid.Row="0" Background="White"></Button>
+        <Button x:Name="Cell8_1" Grid.Column="0" Grid.Row="0" Background="White" Click="Button_Click"></Button>
         <Button Grid.Column="2" Grid.Row="0" Background="White"></Button>
         <Button Grid.Column="4" Grid.Row="0" Background="White"></Button>
         <Button Grid.Column="6" Grid.Row="0" Background="White"></Button>
-        <Button Grid.Column="1" Grid.Row="0" Background="Black"> </Button>
+        <Button Grid.Column="1" Grid.Row="0" Background="Black"></Button>
         <Button Grid.Column="3" Grid.Row="0" Background="Black"></Button>
         <Button Grid.Column="5" Grid.Row="0" Background="Black"></Button>
         <Button Grid.Column="7" Grid.Row="0" Background="Black"></Button>
@@ -169,8 +170,20 @@
         <Button Grid.Column="7" Grid.Row="7" Background="White"></Button>
         <Button Grid.Column="0" Grid.Row="7" Background="Black"></Button>
         <Button Grid.Column="2" Grid.Row="7" Background="Black"></Button>
-        <Button Grid.Column="4" Grid.Row="7" Background="Black"></Button>
         <Button Grid.Column="6" Grid.Row="7" Background="Black"></Button>
+        <Button Grid.Column="4" Grid.Row="7" Background="Black"></Button>
+        <StackPanel Grid.Column="8" Grid.RowSpan="6" Orientation="Vertical">
+            <Button x:Name="KingButton" Content="King" Height="72" Click="KingButton_Click"/>
+            <Button x:Name="QueenButton" Content="Queen" Height="72" Click="QueenButton_Click"/>
+            <Button x:Name="BishopButton" Content="Bishop" Height="72" Click="BishopButton_Click"/>
+            <Button x:Name="KnightButton" Content="Knight" Height="72" Click="KnightButton_Click"/>
+            <Button x:Name="Rook" Content="Rook" Height="72" Click="Rook_Click" />
+            <Button x:Name="Pawn" Content="Pawn" Height="72" Click="Pawn_Click"/>
+        </StackPanel>
+
+
+
+
 
 
 

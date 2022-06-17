@@ -24,5 +24,45 @@ namespace ChessWPF
         {
             InitializeComponent();
         }
+        String choosenPiece = "";
+
+        private void KingButton_Click(object sender, RoutedEventArgs e)
+        {
+            choosenPiece = "King";
+        }
+
+        private void QueenButton_Click(object sender, RoutedEventArgs e)
+        {
+            choosenPiece = "Queen";
+        }
+
+        private void BishopButton_Click(object sender, RoutedEventArgs e)
+        {
+            choosenPiece = "Bishop";
+        }
+
+        private void KnightButton_Click(object sender, RoutedEventArgs e)
+        {
+            choosenPiece = "Knight";
+        }
+
+        private void Rook_Click(object sender, RoutedEventArgs e)
+        {
+            choosenPiece = "Rook";
+        }
+
+        private void Pawn_Click(object sender, RoutedEventArgs e)
+        {
+            choosenPiece = "Pawn";
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (choosenPiece != null)
+            {
+                Cell8_1.Content = choosenPiece;
+                piece = new Make;
+            }
+        }
     }
 }
