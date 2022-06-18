@@ -101,91 +101,87 @@
         <Button Grid.Column="7" Grid.Row="6" Content=""></Button>
         <Button Grid.Column="7" Grid.Row="7" Content=""></Button>
 
-        <Button x:Name="Cell8_1" Grid.Column="0" Grid.Row="0" Background="White" Click="Button_Click"></Button>
-        <Button Grid.Column="2" Grid.Row="0" Background="White"></Button>
-        <Button Grid.Column="4" Grid.Row="0" Background="White"></Button>
-        <Button Grid.Column="6" Grid.Row="0" Background="White"></Button>
-        <Button Grid.Column="1" Grid.Row="0" Background="Black"></Button>
-        <Button Grid.Column="3" Grid.Row="0" Background="Black"></Button>
-        <Button Grid.Column="5" Grid.Row="0" Background="Black"></Button>
-        <Button Grid.Column="7" Grid.Row="0" Background="Black"></Button>
+        <Button x:Name="Cell8_1" Grid.Column="0" Grid.Row="0" Background="White" Click="Cell8_1_Click"></Button>
+        <Button x:Name="Cell8_3" Grid.Column="2" Grid.Row="0" Background="White"></Button>
+        <Button x:Name="Cell8_5" Grid.Column="4" Grid.Row="0" Background="White"></Button>
+        <Button x:Name="Cell8_7" Grid.Column="6" Grid.Row="0" Background="White"></Button>
+        <Button x:Name="Cell8_2" Grid.Column="1" Grid.Row="0" Background="Black"></Button>
+        <Button x:Name="Cell8_4" Grid.Column="3" Grid.Row="0" Background="Black"></Button>
+        <Button x:Name="Cell8_6" Grid.Column="5" Grid.Row="0" Background="Black"></Button>
+        <Button x:Name="Cell8_8" Grid.Column="7" Grid.Row="0" Background="Black"></Button>
 
-        <Button Grid.Column="1" Grid.Row="1" Background="White"></Button>
-        <Button Grid.Column="3" Grid.Row="1" Background="White"></Button>
-        <Button Grid.Column="5" Grid.Row="1" Background="White"></Button>
-        <Button Grid.Column="7" Grid.Row="1" Background="White"></Button>
-        <Button Grid.Column="0" Grid.Row="1" Background="Black"></Button>
-        <Button Grid.Column="2" Grid.Row="1" Background="Black"></Button>
-        <Button Grid.Column="4" Grid.Row="1" Background="Black"></Button>
-        <Button Grid.Column="6" Grid.Row="1" Background="Black"></Button>
+        <Button x:Name="Cell7_2" Grid.Column="1" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="Cell7_4" Grid.Column="3" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="Cell7_6" Grid.Column="5" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="Cell7_8" Grid.Column="7" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="Cell7_1" Grid.Column="0" Grid.Row="1" Background="Black"></Button>
+        <Button x:Name="Cell7_3" Grid.Column="2" Grid.Row="1" Background="Black"></Button>
+        <Button x:Name="Cell7_5" Grid.Column="4" Grid.Row="1" Background="Black"></Button>
+        <Button x:Name="Cell7_7" Grid.Column="6" Grid.Row="1" Background="Black"></Button>
 
-        <Button Grid.Column="0" Grid.Row="2" Background="White"></Button>
-        <Button Grid.Column="2" Grid.Row="2" Background="White"></Button>
-        <Button Grid.Column="4" Grid.Row="2" Background="White"></Button>
-        <Button Grid.Column="6" Grid.Row="2" Background="White"></Button>
-        <Button Grid.Column="1" Grid.Row="2" Background="Black"></Button>
-        <Button Grid.Column="3" Grid.Row="2" Background="Black"></Button>
-        <Button Grid.Column="5" Grid.Row="2" Background="Black"></Button>
-        <Button Grid.Column="7" Grid.Row="2" Background="Black"></Button>
+        <Button x:Name="Cell6_1" Grid.Column="0" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Cell6_3" Grid.Column="2" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Cell6_5" Grid.Column="4" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Cell6_7" Grid.Column="6" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Cell6_2" Grid.Column="1" Grid.Row="2" Background="Black"></Button>
+        <Button x:Name="Cell6_4" Grid.Column="3" Grid.Row="2" Background="Black"></Button>
+        <Button x:Name="Cell6_6" Grid.Column="5" Grid.Row="2" Background="Black"></Button>
+        <Button x:Name="Cell6_8" Grid.Column="7" Grid.Row="2" Background="Black"></Button>
 
-        <Button Grid.Column="1" Grid.Row="3" Background="White"></Button>
-        <Button Grid.Column="3" Grid.Row="3" Background="White"></Button>
-        <Button Grid.Column="5" Grid.Row="3" Background="White"></Button>
-        <Button Grid.Column="7" Grid.Row="3" Background="White"></Button>
-        <Button Grid.Column="0" Grid.Row="3" Background="Black"></Button>
-        <Button Grid.Column="2" Grid.Row="3" Background="Black"></Button>
-        <Button Grid.Column="4" Grid.Row="3" Background="Black"></Button>
-        <Button Grid.Column="6" Grid.Row="3" Background="Black"></Button>
+        <Button x:Name="Cell5_2" Grid.Column="1" Grid.Row="3" Background="White"></Button>
+        <Button x:Name="Cell5_4" Grid.Column="3" Grid.Row="3" Background="White"></Button>
+        <Button x:Name="Cell5_6" Grid.Column="5" Grid.Row="3" Background="White"></Button>
+        <Button x:Name="Cell5_8" Grid.Column="7" Grid.Row="3" Background="White"></Button>
+        <Button x:Name="Cell5_1" Grid.Column="0" Grid.Row="3" Background="Black"></Button>
+        <Button x:Name="Cell5_3" Grid.Column="2" Grid.Row="3" Background="Black"></Button>
+        <Button x:Name="Cell5_5" Grid.Column="4" Grid.Row="3" Background="Black"></Button>
+        <Button x:Name="Cell5_7" Grid.Column="6" Grid.Row="3" Background="Black"></Button>
 
-        <Button Grid.Column="0" Grid.Row="4" Background="White"></Button>
-        <Button Grid.Column="2" Grid.Row="4" Background="White"></Button>
-        <Button Grid.Column="4" Grid.Row="4" Background="White"></Button>
-        <Button Grid.Column="6" Grid.Row="4" Background="White"></Button>
-        <Button Grid.Column="1" Grid.Row="4" Background="Black"></Button>
-        <Button Grid.Column="3" Grid.Row="4" Background="Black"></Button>
-        <Button Grid.Column="5" Grid.Row="4" Background="Black"></Button>
-        <Button Grid.Column="7" Grid.Row="4" Background="Black"></Button>
+        <Button x:Name="Cell4_1" Grid.Column="0" Grid.Row="4" Background="White"></Button>
+        <Button x:Name="Cell4_3" Grid.Column="2" Grid.Row="4" Background="White"></Button>
+        <Button x:Name="Cell4_5" Grid.Column="4" Grid.Row="4" Background="White"></Button>
+        <Button x:Name="Cell4_7" Grid.Column="6" Grid.Row="4" Background="White"></Button>
+        <Button x:Name="Cell4_2" Grid.Column="1" Grid.Row="4" Background="Black"></Button>
+        <Button x:Name="Cell4_4" Grid.Column="3" Grid.Row="4" Background="Black"></Button>
+        <Button x:Name="Cell4_6" Grid.Column="5" Grid.Row="4" Background="Black"></Button>
+        <Button x:Name="Cell4_8" Grid.Column="7" Grid.Row="4" Background="Black"></Button>
 
-        <Button Grid.Column="1" Grid.Row="5" Background="White"></Button>
-        <Button Grid.Column="3" Grid.Row="5" Background="White"></Button>
-        <Button Grid.Column="5" Grid.Row="5" Background="White"></Button>
-        <Button Grid.Column="7" Grid.Row="5" Background="White"></Button>
-        <Button Grid.Column="0" Grid.Row="5" Background="Black"></Button>
-        <Button Grid.Column="2" Grid.Row="5" Background="Black"></Button>
-        <Button Grid.Column="4" Grid.Row="5" Background="Black"></Button>
-        <Button Grid.Column="6" Grid.Row="5" Background="Black"></Button>
+        <Button x:Name="Cell3_2" Grid.Column="1" Grid.Row="5" Background="White"></Button>
+        <Button x:Name="Cell3_4" Grid.Column="3" Grid.Row="5" Background="White"></Button>
+        <Button x:Name="Cell3_6" Grid.Column="5" Grid.Row="5" Background="White"></Button>
+        <Button x:Name="Cell3_8" Grid.Column="7" Grid.Row="5" Background="White"></Button>
+        <Button x:Name="Cell3_1" Grid.Column="0" Grid.Row="5" Background="Black"></Button>
+        <Button x:Name="Cell3_3" Grid.Column="2" Grid.Row="5" Background="Black"></Button>
+        <Button x:Name="Cell3_5" Grid.Column="4" Grid.Row="5" Background="Black"></Button>
+        <Button x:Name="Cell3_7" Grid.Column="6" Grid.Row="5" Background="Black"></Button>
 
-        <Button Grid.Column="0" Grid.Row="6" Background="White"></Button>
-        <Button Grid.Column="2" Grid.Row="6" Background="White"></Button>
-        <Button Grid.Column="4" Grid.Row="6" Background="White"></Button>
-        <Button Grid.Column="6" Grid.Row="6" Background="White"></Button>
-        <Button Grid.Column="1" Grid.Row="6" Background="Black"></Button>
-        <Button Grid.Column="3" Grid.Row="6" Background="Black"></Button>
-        <Button Grid.Column="5" Grid.Row="6" Background="Black"></Button>
-        <Button Grid.Column="7" Grid.Row="6" Background="Black"></Button>
+        <Button x:Name="Cell2_1" Grid.Column="0" Grid.Row="6" Background="White"></Button>
+        <Button x:Name="Cell2_3" Grid.Column="2" Grid.Row="6" Background="White"></Button>
+        <Button x:Name="Cell2_5" Grid.Column="4" Grid.Row="6" Background="White"></Button>
+        <Button x:Name="Cell2_7" Grid.Column="6" Grid.Row="6" Background="White"></Button>
+        <Button x:Name="Cell2_2" Grid.Column="1" Grid.Row="6" Background="Black"></Button>
+        <Button x:Name="Cell2_4" Grid.Column="3" Grid.Row="6" Background="Black"></Button>
+        <Button x:Name="Cell2_6" Grid.Column="5" Grid.Row="6" Background="Black"></Button>
+        <Button x:Name="Cell2_8" Grid.Column="7" Grid.Row="6" Background="Black"></Button>
 
-        <Button Grid.Column="1" Grid.Row="7" Background="White"></Button>
-        <Button Grid.Column="3" Grid.Row="7" Background="White"></Button>
-        <Button Grid.Column="5" Grid.Row="7" Background="White"></Button>
-        <Button Grid.Column="7" Grid.Row="7" Background="White"></Button>
-        <Button Grid.Column="0" Grid.Row="7" Background="Black"></Button>
-        <Button Grid.Column="2" Grid.Row="7" Background="Black"></Button>
-        <Button Grid.Column="6" Grid.Row="7" Background="Black"></Button>
-        <Button Grid.Column="4" Grid.Row="7" Background="Black"></Button>
+        <Button x:Name="Cell1_2" Grid.Column="1" Grid.Row="7" Background="White"></Button>
+        <Button x:Name="Cell1_4" Grid.Column="3" Grid.Row="7" Background="White"></Button>
+        <Button x:Name="Cell1_6" Grid.Column="5" Grid.Row="7" Background="White"></Button>
+        <Button x:Name="Cell1_8" Grid.Column="7" Grid.Row="7" Background="White"></Button>
+        <Button x:Name="Cell1_1" Grid.Column="0" Grid.Row="7" Background="Black"></Button>
+        <Button x:Name="Cell1_3" Grid.Column="2" Grid.Row="7" Background="Black"></Button>
+        <Button x:Name="Cell1_7" Grid.Column="6" Grid.Row="7" Background="Black"></Button>
+        <Button x:Name="Cell1_5" Grid.Column="4" Grid.Row="7" Background="Black"></Button>
+        
         <StackPanel Grid.Column="8" Grid.RowSpan="6" Orientation="Vertical">
             <Button x:Name="KingButton" Content="King" Height="72" Click="KingButton_Click"/>
             <Button x:Name="QueenButton" Content="Queen" Height="72" Click="QueenButton_Click"/>
             <Button x:Name="BishopButton" Content="Bishop" Height="72" Click="BishopButton_Click"/>
             <Button x:Name="KnightButton" Content="Knight" Height="72" Click="KnightButton_Click"/>
-            <Button x:Name="Rook" Content="Rook" Height="72" Click="Rook_Click" />
-            <Button x:Name="Pawn" Content="Pawn" Height="72" Click="Pawn_Click"/>
+            <Button x:Name="RookButton" Content="Rook" Height="72" Click="Rook_Click" />
+            <Button x:Name="PawnButton" Content="Pawn" Height="72" Click="Pawn_Click"/>
         </StackPanel>
-
-
-
-
-
-
+        
 
 
     </Grid>

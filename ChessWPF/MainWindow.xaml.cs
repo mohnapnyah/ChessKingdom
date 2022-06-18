@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace ChessWPF
 {
@@ -20,9 +21,8 @@ namespace ChessWPF
     /// </summary>
     public partial class MainWindow : Window
     {
-        
         class PieceMaker
-        {
+        {       
             static public Piece Make(string pieceCode, int x, int y)
             {
                 Piece piece = null;
@@ -204,6 +204,7 @@ namespace ChessWPF
         private void Rook_Click(object sender, RoutedEventArgs e)
         {
             choosenPiece = "Rook";
+            MessageBox.Show(choosenPiece);
         }
 
         private void Pawn_Click(object sender, RoutedEventArgs e)
@@ -211,13 +212,13 @@ namespace ChessWPF
             choosenPiece = "Pawn";
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Cell8_1_Click(object sender, RoutedEventArgs e)
         {
-            if (choosenPiece != null)
+            if(choosenPiece != null)
             {
                 Cell8_1.Content = choosenPiece;
-                Piece piece = PieceMaker.Make(choosenPiece, Grid.GetRow, Grid.GetColumn);
-            }
+                Piece piece = PieceMaker.Make(choosenPiece, Grid.GetRow(this), Grid.GetColumn(this));
+            }    
         }
     }
 }
