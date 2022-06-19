@@ -180,6 +180,7 @@ namespace ChessWPF
             InitializeComponent();
         }
         String choosenPiece = "";
+        String pieceMove = "";
 
         private void KingButton_Click(object sender, RoutedEventArgs e)
         {
@@ -204,7 +205,6 @@ namespace ChessWPF
         private void Rook_Click(object sender, RoutedEventArgs e)
         {
             choosenPiece = "Rook";
-            MessageBox.Show(choosenPiece);
         }
 
         private void Pawn_Click(object sender, RoutedEventArgs e)
@@ -212,13 +212,16 @@ namespace ChessWPF
             choosenPiece = "Pawn";
         }
 
-        private void Cell8_1_Click(object sender, RoutedEventArgs e)
+        private static Piece Button_Click(object sender, RoutedEventArgs e)
         {
-            if(choosenPiece != null)
+            if (choosenPiece != null)
             {
                 Cell8_1.Content = choosenPiece;
-                Piece piece = PieceMaker.Make(choosenPiece, Grid.GetRow(this), Grid.GetColumn(this));
-            }    
+                Piece newPiece = PieceMaker.Make(choosenPiece, Grid.GetRow(this), Grid.GetColumn(this));
+                choosenPiece = "";
+                return newPiece;
+            }
+            pieceMove = (string)Cell8_1.Content;
         }
     }
 }
